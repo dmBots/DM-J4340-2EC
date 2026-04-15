@@ -1,37 +1,22 @@
 # DM-J4340-2EC
 
-#### 介绍
-DM4340减速电机
+## 概述
+- 这是 DM-J4340-2EC 减速电机资料入口。
+- 本目录只保留已确认的说明书、图纸、3D 模型和性能曲线资源。
+- 未确认内容保持 `TBD` 或 `Translation pending`，不在此处硬补。
 
-#### 软件架构
-软件架构说明
+## 文档 / 资源
+- [说明书/](说明书/)
+- [2D图纸/](2D图纸/)
+- [3D模型/](3D模型/)
+- [性能曲线/](性能曲线/)
 
+## 快速开始
+- 本目录没有独立的快速开始步骤。
+- 如需使用说明，请先阅读 [说明书/](说明书/)。
+- 如需查看外形和特性，请参考图纸、3D 模型和性能曲线。
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 状态
+- ZH: 主版
+- EN: Translation pending
+- TBD: 未确认信息保留空缺
