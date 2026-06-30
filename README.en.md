@@ -4,18 +4,21 @@
 
 ## Overview
 
-This repository is the material entry point for $name. The material folders are normalized so Gitee and GitHub can share the same internal structure.
+This folder is the Chinese source of materials for DM-J4340-2EC. Maintainers update the Chinese source folders only; Gitee preserves them, and GitHub publishing maps them to English paths.
 
-## Resources
+## Source Mapping
 
-- [manual/](manual/) - manuals, datasheets, and usage notes
-- [drawings/2d/](drawings/2d/) - 2D drawings, dimensions, and schematic materials
-- [models/3d/](models/3d/) - 3D models and mechanical files
-- [test-data/](test-data/) - test data, performance curves, and validation materials
-- [release-notes/](release-notes/) - release notes and change records
+| Chinese source folder | GitHub publish folder | Notes |
+| --- | --- | --- |
+| `说明书/` | `manual/` | manuals, datasheets, and usage notes |
+| `2D图纸/` | `drawings/2d/` | 2D drawings, dimensions, and schematic materials |
+| `3D模型/` | `models/3d/` | 3D models and mechanical files |
+| `测试数据/` | `test-data/` | test data, performance curves, and validation materials |
+| `版本说明/` | `release-notes/` | release notes and change records |
 
-## Structure Policy
+## Publishing Policy
 
-- Gitee uses Chinese as the default README.md.
-- GitHub uses English as the default README.md.
-- Subrepository links use only normalized local folders and do not depend on parent repository paths.
+- The source folder keeps Chinese paths for maintainers.
+- Gitee uses Chinese paths and Chinese README by default.
+- GitHub is generated with English paths and English README by the publish script.
+- Do not maintain a second English source tree manually.
